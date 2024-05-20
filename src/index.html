@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo List</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="start"></div>
+                <div class="end">
+                    <div class="completed project" data-project-id="00000000-0000-0000-0000-000000000000">
+                        Completed
+                    </div>
+                    <button>
+                        +
+                    </button>
+                    <div class="context-menu menu project-menu">
+                        <ul>
+                            <li class="delete">Delete Project</li>
+                        </ul>
+                    </div>
+                    <dialog class="form">
+                        <form action="" method="post">
+                            <li>
+                                <label for="project-name">Project Name</label>
+                                <input type="text" id="project-name" name="project-name">
+                            </li>
+                            <div class="button-container">
+                                <button class="cancel" value="Cancel" formmethod="dialog">Cancel</button>
+                                <button class="confirm" value="default">Create Project</button>
+                            </div>
+                        </form>
+                    </dialog>
+                </div>
+            </nav>
+            <article>
+                <div class="project-heading">
+                    <div>
+                        <h1></h1>
+                        <button class="add-todo-button">
+                            +
+                        </button>
+                    </div>
+                </div>
+                <div class="workbook-area">
+                    <div class="sort-menu-container">
+                        <div class="sort-menu">
+                            <button class="sort-menu-button">
+                                Sort
+                            </button>
+                            <ul>
+                                <li>Alphabetical</li>
+                                <li>Due date</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="todo-area"></div>
+                </div>
+            </article>
+        </div>
+        <div class="context-menu menu todo-menu">
+            <ul>
+                <li class="move">Move Todo</li>
+                <li class="delete">Delete Todo</li>
+            </ul>
+        </div>
+    </body>
+</html>
