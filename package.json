@@ -1,7 +1,7 @@
 {
-  "name": "todo-list",
+  "name": "to-be-renamed",
   "version": "1.0.0",
-  "description": "Todo List Project",
+  "description": "ADD DESCRIPTION",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "css-loader": "^7.0.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
@@ -20,8 +23,6 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
-    "date-fns": "^3.6.0",
-    "normalize.css": "^8.0.1",
-    "uuid": "^9.0.1"
+    "normalize.css": "^8.0.1"
   }
 }
