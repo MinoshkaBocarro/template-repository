@@ -9,8 +9,10 @@ export default [
   },
   pluginJs.configs.recommended,
   {
+    ignores: ["**/*.config.mjs", "webpack.*.js", "dist/"],
+  },
+  {
     files: ["src/**/*.js"],
-    ignores: ["**/*.config.js"],
     rules: {
       semi: ["error", "always"],
 
