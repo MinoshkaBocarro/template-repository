@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch --config webpack.dev.js",
+    "dev": "webpack --watch --config webpack.dev.js",
     "post": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
@@ -14,14 +14,17 @@
   "devDependencies": {
     "@eslint/js": "^9.3.0",
     "css-loader": "^7.0.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "eslint": "^9.3.0",
     "globals": "^15.3.0",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.2",
     "prettier": "3.2.5",
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
